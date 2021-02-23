@@ -1,0 +1,54 @@
+
+ul {
+    display: inline-flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: center;
+    padding: 0;
+    margin: 0;
+}
+
+li a {
+    font-family: 'Bangers', cursive;
+    font-size: 20px;
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+
+    background-color: #c8c8c8;
+}
+.navegacion
+{
+    margin: 0 auto;
+    padding: auto;
+    width: 100%;
+}
+.tabla
+{
+    
+    margin: 0 auto;
+    width: 40%;
+    height: 40%;
+
+}
+.navegacion, #footer
+{
+    text-align: center;
+}
+p,h1,h2
+{
+    text-align: center;
+    
+}
+
+
