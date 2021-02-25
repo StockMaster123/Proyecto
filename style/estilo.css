@@ -1,21 +1,7 @@
-*{
-@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
-    font-family: 'Balsamiq Sans', cursive;
+*
+{
+    box-sizing: border-box;
 }
-
-    :root {
-        --header-height: 3rem;
-        --font-semi: 600;
-        --first--color: #4070F4;
-        --second--color: #0E2431;
-        --body--font:'Poppins' sans-serif;
-        --h2-font-size:1.25;
-        --normal-font-size: 0.928rem;
-
-
-    }
-
-
 ul {
     display: inline-flex;
     list-style-type: none;
@@ -66,10 +52,5 @@ p,h1,h2
 {
     text-align: center;
     
-}
-
-#about
-{
-
 }
 

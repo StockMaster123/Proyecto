@@ -33,20 +33,37 @@ li a:hover {
     padding: auto;
     width: 100%;
 }
-.tabla
-{
-    
-    margin: 0 auto;
-    width: 40%;
-    height: 40%;
-
-}
 .navegacion, #footer
 {
     text-align: center;
 }
-p,h1,h2
-{
-    text-align: center;
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 450px;
+    height: 450px;
+    background: blue;
+    border-radius: 10px;
 }
-   
+.center h2{
+    text-align: center;
+    padding: 0 0 20px 0;
+}
+.center form{
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+form .txt{
+    position: relative;
+    border-bottom: 2px solid ;
+    margin: 30px 0;
+}
+.txt input{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+}
