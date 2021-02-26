@@ -1,6 +1,8 @@
-*
+
+main h1,p
 {
     box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 ul {
     display: inline-flex;
@@ -14,13 +16,14 @@ li {
     float: center;
     padding: 0;
     margin: 0;
+    width: 70%;
 }
 
 li a {
     font-family: 'Bangers', cursive;
     font-size: 20px;
     display: inline-block;
-    color: black;
+    color:black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -28,29 +31,45 @@ li a {
 
 li a:hover {
 
-    background-color: #c8c8c8;
+ background: orange;
 }
 .navegacion
 {
-    margin: 0 auto;
-    padding: auto;
     width: 100%;
+    margin: 0;
+    padding: 0;
 }
+.navegacion img{
+    position: absolute;
+    width: 10%;
+    text-align: left;
+    margin: 0 -20%;
+    padding: 0px;
+}
+.navegacion ul{
+    padding: 0;
+    margin: 0;
+    width: 40%;
+    position: relative;
+    text-align: right;
+}
+
 .tabla
 {
-    
-    margin: 0 auto;
-    width: 40%;
-    height: 40%;
+    margin: 0 0;
+    width: 100%;
+    height: 100%;
 
 }
-.navegacion, #footer
-{
+.navegacion, #footer{
     text-align: center;
 }
 p,h1,h2
 {
-    text-align: center;
-    
+    margin: 3%;
+    text-align: center;    
+}
+#footer{
+    background-color: orangered;
 }
 
